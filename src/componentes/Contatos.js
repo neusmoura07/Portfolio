@@ -6,28 +6,28 @@ const ContactSection = () => {
       <div className="p-4 flex justify-center items-center flex-col text-[#CEC7BF]" style={{ fontFamily: 'archivo' }}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
             <div className='flex items-center gap-3 flex-col md:flex-row hover:underline'>
-                <a href="mailto:charlesdemoura003@outlook.com">
+                <a href="mailto:neusvaldomoura07@gmail.com">
                     <img src="./img/contato/email.png" alt="Email" className="size-10" />
                 </a>
-                charlesdemoura003@outlook.com
+                neusvaldomoura07@gmail.com
             </div>
             <div className="hover:underline flex items-center gap-3 flex-col md:flex-row">
-                <a href="https://github.com/JcSouzaa01">
+                <a href="https://github.com/neusmoura07">
                     <img src="./img/sobre/github.png" alt="GitHub" className="size-10" />
                 </a>
-                https://github.com/JcSouzaa01
+                https://github.com/Neusmoura07
             </div>
             <div className="hover:underline flex items-center gap-3 flex-col md:flex-row">
-                <a href="https://wa.me/82999211763">
+                <a href="https://wa.me/82987450397">
                     <img src="./img/contato/whatsapp.png" alt="Whatsapp" className="size-10" />
                 </a>
-                (82) 9 9921-1763
+                (82) 9 8745-0397
             </div>
             <div className="hover:underline flex items-center gap-3 flex-col md:flex-row">
-                <a href="https://www.instagram.com/_jc.s0uza/">
-                    <img src="./img/sobre/instagram.png" alt="Instagram" className="size-10" />
+                <a href="https://www.linkedin.com/in/neusvaldo-moura-20608b312/">
+                    <img src="./img/sobre/linkedin.png" alt="Instagram" className="size-10" />
                 </a>
-                @_jc.s0uza
+                Neusvaldo Moura
             </div>
         </div>
         <p className="text-center mt-28 md:text-xl">Fique à vontade para entrar em contato a qualquer momento.</p>

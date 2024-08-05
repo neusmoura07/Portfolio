@@ -24,10 +24,10 @@ function SamplePrevArrow(props) {
   );
 }
 
-const Card = ({ imageSrc, title, description, href }) => (
+const Card = ({ imageSrc, title, description, href, href2 }) => (
     <div className='flex justify-start items-center flex-col hover:shadow-lg transition-shadow duration-300'>
-        <div className='h-[10px] w-[250px] bg-[#00E0c3] rounded-t-[50px]'></div>
-        <div className="bg-[#3D737F] p-6 rounded-lg shadow-md h-[400px] mx-auto justify-center items-center flex flex-col">
+        <div className='h-[10px] w-[250px] bg-[#ffffff] rounded-t-[50px]'></div>
+        <div className="bg-[#0277bd] p-6 rounded-lg shadow-md h-[400px] mx-auto justify-center items-center flex flex-col">
             <div className="overflow-hidden flex justify-center items-center rounded-md">
                 <a href={href}>
                     <img src={imageSrc} alt={title} className="rounded-md" />
@@ -36,7 +36,12 @@ const Card = ({ imageSrc, title, description, href }) => (
             <div className="text-center mt-4 flex justify-center items-center flex-col">
                 <h2 className="text-xl font-semibold text-white" style={{ fontFamily: 'archivo black' }}>{title}</h2>
                 <p className="mt-2 text-[#CEC7BF]" style={{ fontFamily: 'archivo' }}>{description}</p>
-                <a href={href} className='text-[#00E0c3]' style={{ fontFamily: 'archivo' }}>Visite o site!</a>
+                <a href={href} className='text-[#20ffa9]' style={{ fontFamily: 'archivo' }}>Veja o jogo!</a>
+            </div>
+            <div className='pt-10'>
+            <a href={href2}>
+                    <img src='/img/sobre/github.png' className='size-[30px] '/>
+                </a>
             </div>
         </div>
     </div>
@@ -66,16 +71,18 @@ const ProjetosCard = () => {
     <div className="p-2 w-[300px] md:w-[600px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.70)]">
       <Slider {...settings}>
         <Card 
-          imageSrc="./img/Projetos/cardapio1.png" 
-          title="Website - Cardápio Online"
-          description="Site para facilitar a escolha e compra dos clientes de uma hamburgueria."
-          href="https://letsgocardapio.vercel.app/"
+          imageSrc="./img/Projetos/telabrazilian.png" 
+          title="Brazilian Race"
+          description="Jogo de Corrida em 3D feito na Unity com C#"
+          href="https://www.youtube.com/watch?v=ZCl7Gs1VGeI"
+          href2="https://github.com/neusmoura07/BrazilianRace"
         />
         <Card 
-          imageSrc="./img/Projetos/langboss1.png" 
-          title="Website - LangBoss"
-          description="Site dedicado a facilitar os estudos de outras línguas, oferecendo traduções para aprimorar seu aprendizado."
-          href="https://langboss.vercel.app/" 
+          imageSrc="./img/Projetos/telajogo01.png" 
+          title="Jogo em 2D"
+          description="Jogo utilizado para aprendizado no GameMaker em 2D"
+          href="https://www.youtube.com/watch?v=j3NGFnQjSAo" 
+          href2="https://github.com/neusmoura07/JOGO2D"
         />
       </Slider>
     </div>

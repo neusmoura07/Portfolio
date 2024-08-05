@@ -44,7 +44,7 @@ const Header = () => {
                       {logo1}
                   </span>
                   <span className='text-white font-audiowide'>
-                      Charles Souza
+                      Neus Moura
                   </span>
                   <span className='text-[#00E0c3] font-audiowide pl-1'>
                       {logo2}
