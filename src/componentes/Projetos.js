@@ -36,7 +36,7 @@ const Card = ({ imageSrc, title, description, href, href2 }) => (
             <div className="text-center mt-4 flex justify-center items-center flex-col">
                 <h2 className="text-xl font-semibold text-white" style={{ fontFamily: 'archivo black' }}>{title}</h2>
                 <p className="mt-2 text-[#CEC7BF]" style={{ fontFamily: 'archivo' }}>{description}</p>
-                <a href={href} className='text-[#20ffa9]' style={{ fontFamily: 'archivo' }}>Veja o jogo!</a>
+                <a href={href} className='text-[#20ffa9]' style={{ fontFamily: 'archivo' }}>Veja!</a>
             </div>
             <div className='pt-10'>
             <a href={href2}>
@@ -83,6 +83,12 @@ const ProjetosCard = () => {
           description="Jogo utilizado para aprendizado no GameMaker em 2D"
           href="https://www.youtube.com/watch?v=j3NGFnQjSAo" 
           href2="https://github.com/neusmoura07/JOGO2D"
+        />
+        <Card 
+          imageSrc="./img/Projetos/hb_print.PNG" 
+          title="HB Baterias"
+          description="Site Simples"
+          href="https://hb-baterias.vercel.app"
         />
       </Slider>
     </div>
